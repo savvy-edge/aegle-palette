@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB15185A1C29012D00C66085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1518591C29012D00C66085 /* AppDelegate.swift */; };
+		DB15185C1C29012D00C66085 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB15185B1C29012D00C66085 /* ViewController.swift */; };
+		DB15185F1C29012D00C66085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB15185D1C29012D00C66085 /* Main.storyboard */; };
+		DB1518611C29012D00C66085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1518601C29012D00C66085 /* Assets.xcassets */; };
+		DB1518641C29012D00C66085 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1518621C29012D00C66085 /* LaunchScreen.storyboard */; };
+		DB15186F1C29012D00C66085 /* Aegle_PaletteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB15186E1C29012D00C66085 /* Aegle_PaletteTests.swift */; };
+		DB15187A1C29012D00C66085 /* Aegle_PaletteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1518791C29012D00C66085 /* Aegle_PaletteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB15186B1C29012D00C66085 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB15184E1C29012D00C66085 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB1518551C29012D00C66085;
+			remoteInfo = "Aegle-Palette";
+		};
+		DB1518761C29012D00C66085 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB15184E1C29012D00C66085 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB1518551C29012D00C66085;
+			remoteInfo = "Aegle-Palette";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB1518561C29012D00C66085 /* Aegle-Palette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aegle-Palette.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1518591C29012D00C66085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB15185B1C29012D00C66085 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB15185E1C29012D00C66085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB1518601C29012D00C66085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB1518631C29012D00C66085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB1518651C29012D00C66085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB15186A1C29012D00C66085 /* Aegle-PaletteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aegle-PaletteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB15186E1C29012D00C66085 /* Aegle_PaletteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aegle_PaletteTests.swift; sourceTree = "<group>"; };
+		DB1518701C29012D00C66085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1518751C29012D00C66085 /* Aegle-PaletteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aegle-PaletteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1518791C29012D00C66085 /* Aegle_PaletteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aegle_PaletteUITests.swift; sourceTree = "<group>"; };
+		DB15187B1C29012D00C66085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1518531C29012D00C66085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1518671C29012D00C66085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1518721C29012D00C66085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB15184D1C29012D00C66085 = {
+			isa = PBXGroup;
+			children = (
+				DB1518581C29012D00C66085 /* Aegle-Palette */,
+				DB15186D1C29012D00C66085 /* Aegle-PaletteTests */,
+				DB1518781C29012D00C66085 /* Aegle-PaletteUITests */,
+				DB1518571C29012D00C66085 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1518571C29012D00C66085 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1518561C29012D00C66085 /* Aegle-Palette.app */,
+				DB15186A1C29012D00C66085 /* Aegle-PaletteTests.xctest */,
+				DB1518751C29012D00C66085 /* Aegle-PaletteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1518581C29012D00C66085 /* Aegle-Palette */ = {
+			isa = PBXGroup;
+			children = (
+				DB1518591C29012D00C66085 /* AppDelegate.swift */,
+				DB15185B1C29012D00C66085 /* ViewController.swift */,
+				DB15185D1C29012D00C66085 /* Main.storyboard */,
+				DB1518601C29012D00C66085 /* Assets.xcassets */,
+				DB1518621C29012D00C66085 /* LaunchScreen.storyboard */,
+				DB1518651C29012D00C66085 /* Info.plist */,
+			);
+			path = "Aegle-Palette";
+			sourceTree = "<group>";
+		};
+		DB15186D1C29012D00C66085 /* Aegle-PaletteTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB15186E1C29012D00C66085 /* Aegle_PaletteTests.swift */,
+				DB1518701C29012D00C66085 /* Info.plist */,
+			);
+			path = "Aegle-PaletteTests";
+			sourceTree = "<group>";
+		};
+		DB1518781C29012D00C66085 /* Aegle-PaletteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1518791C29012D00C66085 /* Aegle_PaletteUITests.swift */,
+				DB15187B1C29012D00C66085 /* Info.plist */,
+			);
+			path = "Aegle-PaletteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1518551C29012D00C66085 /* Aegle-Palette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB15187E1C29012D00C66085 /* Build configuration list for PBXNativeTarget "Aegle-Palette" */;
+			buildPhases = (
+				DB1518521C29012D00C66085 /* Sources */,
+				DB1518531C29012D00C66085 /* Frameworks */,
+				DB1518541C29012D00C66085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aegle-Palette";
+			productName = "Aegle-Palette";
+			productReference = DB1518561C29012D00C66085 /* Aegle-Palette.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB1518691C29012D00C66085 /* Aegle-PaletteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1518811C29012D00C66085 /* Build configuration list for PBXNativeTarget "Aegle-PaletteTests" */;
+			buildPhases = (
+				DB1518661C29012D00C66085 /* Sources */,
+				DB1518671C29012D00C66085 /* Frameworks */,
+				DB1518681C29012D00C66085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB15186C1C29012D00C66085 /* PBXTargetDependency */,
+			);
+			name = "Aegle-PaletteTests";
+			productName = "Aegle-PaletteTests";
+			productReference = DB15186A1C29012D00C66085 /* Aegle-PaletteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB1518741C29012D00C66085 /* Aegle-PaletteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1518841C29012D00C66085 /* Build configuration list for PBXNativeTarget "Aegle-PaletteUITests" */;
+			buildPhases = (
+				DB1518711C29012D00C66085 /* Sources */,
+				DB1518721C29012D00C66085 /* Frameworks */,
+				DB1518731C29012D00C66085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1518771C29012D00C66085 /* PBXTargetDependency */,
+			);
+			name = "Aegle-PaletteUITests";
+			productName = "Aegle-PaletteUITests";
+			productReference = DB1518751C29012D00C66085 /* Aegle-PaletteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB15184E1C29012D00C66085 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Aegle Palette";
+				TargetAttributes = {
+					DB1518551C29012D00C66085 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					DB1518691C29012D00C66085 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DB1518551C29012D00C66085;
+					};
+					DB1518741C29012D00C66085 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DB1518551C29012D00C66085;
+					};
+				};
+			};
+			buildConfigurationList = DB1518511C29012D00C66085 /* Build configuration list for PBXProject "Aegle-Palette" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB15184D1C29012D00C66085;
+			productRefGroup = DB1518571C29012D00C66085 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1518551C29012D00C66085 /* Aegle-Palette */,
+				DB1518691C29012D00C66085 /* Aegle-PaletteTests */,
+				DB1518741C29012D00C66085 /* Aegle-PaletteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1518541C29012D00C66085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1518641C29012D00C66085 /* LaunchScreen.storyboard in Resources */,
+				DB1518611C29012D00C66085 /* Assets.xcassets in Resources */,
+				DB15185F1C29012D00C66085 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1518681C29012D00C66085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1518731C29012D00C66085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1518521C29012D00C66085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB15185C1C29012D00C66085 /* ViewController.swift in Sources */,
+				DB15185A1C29012D00C66085 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1518661C29012D00C66085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB15186F1C29012D00C66085 /* Aegle_PaletteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1518711C29012D00C66085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB15187A1C29012D00C66085 /* Aegle_PaletteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB15186C1C29012D00C66085 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB1518551C29012D00C66085 /* Aegle-Palette */;
+			targetProxy = DB15186B1C29012D00C66085 /* PBXContainerItemProxy */;
+		};
+		DB1518771C29012D00C66085 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB1518551C29012D00C66085 /* Aegle-Palette */;
+			targetProxy = DB1518761C29012D00C66085 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB15185D1C29012D00C66085 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB15185E1C29012D00C66085 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB1518621C29012D00C66085 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1518631C29012D00C66085 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB15187C1C29012D00C66085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB15187D1C29012D00C66085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB15187F1C29012D00C66085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Aegle-Palette/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aegle-palette.Aegle-Palette";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB1518801C29012D00C66085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Aegle-Palette/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aegle-palette.Aegle-Palette";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB1518821C29012D00C66085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Aegle-PaletteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aegle-palette.Aegle-PaletteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aegle-Palette.app/Aegle-Palette";
+			};
+			name = Debug;
+		};
+		DB1518831C29012D00C66085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Aegle-PaletteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aegle-palette.Aegle-PaletteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aegle-Palette.app/Aegle-Palette";
+			};
+			name = Release;
+		};
+		DB1518851C29012D00C66085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Aegle-PaletteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aegle-palette.Aegle-PaletteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Aegle-Palette";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DB1518861C29012D00C66085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Aegle-PaletteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aegle-palette.Aegle-PaletteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Aegle-Palette";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1518511C29012D00C66085 /* Build configuration list for PBXProject "Aegle-Palette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB15187C1C29012D00C66085 /* Debug */,
+				DB15187D1C29012D00C66085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB15187E1C29012D00C66085 /* Build configuration list for PBXNativeTarget "Aegle-Palette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB15187F1C29012D00C66085 /* Debug */,
+				DB1518801C29012D00C66085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB1518811C29012D00C66085 /* Build configuration list for PBXNativeTarget "Aegle-PaletteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1518821C29012D00C66085 /* Debug */,
+				DB1518831C29012D00C66085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB1518841C29012D00C66085 /* Build configuration list for PBXNativeTarget "Aegle-PaletteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1518851C29012D00C66085 /* Debug */,
+				DB1518861C29012D00C66085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB15184E1C29012D00C66085 /* Project object */;
+}
